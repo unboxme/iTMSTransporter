@@ -1,0 +1,93 @@
+disabled_rules:
+  - trailing_whitespace
+  - notification_center_detachment
+included: # paths to include during linting. `--path` is ignored if present.
+  - iTMSTransporter
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+
+opt_in_rules:
+  - attributes
+  - closure_end_indentation
+  - conditional_returns_on_newline
+  - empty_count
+  - empty_string
+  - explicit_init
+  - fatal_error_message
+  - first_where
+  - anyobject_protocol
+  - implicit_return
+  - force_unwrapping
+  - operator_usage_whitespace
+  - vertical_parameter_alignment_on_call
+  - switch_case_on_newline
+  - closure_spacing
+  - trailing_closure
+  - discouraged_direct_init
+  - unneeded_parentheses_in_closure_argument
+  - nesting
+  - nimble_operator
+  - private_action
+  - private_outlet
+  - private_over_fileprivate
+  - private_unit_test
+  - legacy_multiple
+  - duplicate_enum_cases
+
+force_cast: warning # implicitly
+force_try:
+  severity: warning # explicitly
+line_length: 180
+file_length:
+  warning: 500
+  error: 800
+  # ignore_comment_only_lines: true
+type_name:
+  min_length: 3 # only warning
+  max_length: # warning and error
+    warning: 60
+    error: 100
+  # excluded: iPhone # excluded via string
+
+type_body_length:
+  warning: 300
+  error: 800 #temporaty solution
+identifier_name:
+  min_length: # only min_length
+    error: 3 # only error
+  excluded: # excluded via string array
+  - id
+  - URL
+  - iv
+  - cc
+  - ad
+  - up
+
+nesting:
+  type_level: 2
+  statement_level: 5
+
+attributes:
+  always_on_line_above:
+    - "@available"
+    - "@discardableResult"
+  always_on_same_line:
+    - "@IBOutlet"
+    - "@IBAction"
+    - "@NSManaged"
+    - "@testable"
+    - "@objc"
+    - "@nonobjc"
+    
+closure_end_indentation: error
+conditional_returns_on_newline: error
+explicit_init: error
+fatal_error_message: warning
+operator_usage_whitespace: warning
+vertical_parameter_alignment_on_call: warning
+switch_case_on_newline: warning
+private_outlet: 
+  allow_private_set: true
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)
