@@ -19,14 +19,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Cocoa/Cocoa.h>
+import Foundation
 
-//! Project version number for iTMSTransporter.
-FOUNDATION_EXPORT double iTMSTransporterVersionNumber;
+public protocol PathConvertible {
+    func asPath() -> String
+}
 
-//! Project version string for iTMSTransporter.
-FOUNDATION_EXPORT const unsigned char iTMSTransporterVersionString[];
+extension String: PathConvertible {
+    public func asPath() -> String {
+        return self
+    }
+}
 
-// In this header, you should import all the public headers of your framework using statements like #import <iTMSTransporter/PublicHeader.h>
-
-
+extension URL: PathConvertible {
+    public func asPath() -> String {
+        return self.path
+    }
+}

@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5694F269EF30D25B5E270BBE /* Pods_iTMSTransporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ABD81C22952B21BA5C6660 /* Pods_iTMSTransporter.framework */; };
+		E925D79222E4CB5C00DE0063 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925D79122E4CB5C00DE0063 /* Reachability.swift */; };
+		E9491A4822CE9527007FFD90 /* Process+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9491A4722CE9527007FFD90 /* Process+Extension.swift */; };
+		E9B3AF6722CC1113005FB20B /* PathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3AF6622CC1113005FB20B /* PathConvertible.swift */; };
 		E9CC478422CAB5C000E8C829 /* iTMSTransporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */; };
-		E9CC478922CAB5C000E8C829 /* iTMSTransporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC478822CAB5C000E8C829 /* iTMSTransporterTests.swift */; };
+		E9CC478922CAB5C000E8C829 /* TransporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC478822CAB5C000E8C829 /* TransporterTests.swift */; };
 		E9CC478B22CAB5C000E8C829 /* iTMSTransporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9CC479822CAB71000E8C829 /* iTMSTransporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC479722CAB71000E8C829 /* iTMSTransporter.swift */; };
+		E9CC479822CAB71000E8C829 /* Transporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC479722CAB71000E8C829 /* Transporter.swift */; };
+		E9CC47B822CABAF000E8C829 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC47B722CABAF000E8C829 /* Credentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +32,17 @@
 		0F05D75370871EF582975438 /* Pods-iTMSTransporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTMSTransporter.release.xcconfig"; path = "Target Support Files/Pods-iTMSTransporter/Pods-iTMSTransporter.release.xcconfig"; sourceTree = "<group>"; };
 		526D94991280EA51C15951A7 /* Pods-iTMSTransporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTMSTransporter.debug.xcconfig"; path = "Target Support Files/Pods-iTMSTransporter/Pods-iTMSTransporter.debug.xcconfig"; sourceTree = "<group>"; };
 		B9ABD81C22952B21BA5C6660 /* Pods_iTMSTransporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTMSTransporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E925D79122E4CB5C00DE0063 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E9491A4722CE9527007FFD90 /* Process+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Extension.swift"; sourceTree = "<group>"; };
+		E9B3AF6622CC1113005FB20B /* PathConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathConvertible.swift; sourceTree = "<group>"; };
 		E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTMSTransporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTMSTransporter.h; sourceTree = "<group>"; };
 		E9CC477E22CAB5C000E8C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9CC478322CAB5C000E8C829 /* iTMSTransporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTMSTransporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CC478822CAB5C000E8C829 /* iTMSTransporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTMSTransporterTests.swift; sourceTree = "<group>"; };
+		E9CC478822CAB5C000E8C829 /* TransporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporterTests.swift; sourceTree = "<group>"; };
 		E9CC478A22CAB5C000E8C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9CC479722CAB71000E8C829 /* iTMSTransporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTMSTransporter.swift; sourceTree = "<group>"; };
+		E9CC479722CAB71000E8C829 /* Transporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transporter.swift; sourceTree = "<group>"; };
+		E9CC47B722CABAF000E8C829 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */,
-				E9CC479722CAB71000E8C829 /* iTMSTransporter.swift */,
+				E9CC479722CAB71000E8C829 /* Transporter.swift */,
+				E9CC47B722CABAF000E8C829 /* Credentials.swift */,
+				E9B3AF6622CC1113005FB20B /* PathConvertible.swift */,
+				E925D79122E4CB5C00DE0063 /* Reachability.swift */,
+				E9491A4722CE9527007FFD90 /* Process+Extension.swift */,
 				E9CC477E22CAB5C000E8C829 /* Info.plist */,
 			);
 			path = iTMSTransporter;
@@ -107,7 +119,7 @@
 		E9CC478722CAB5C000E8C829 /* iTMSTransporterTests */ = {
 			isa = PBXGroup;
 			children = (
-				E9CC478822CAB5C000E8C829 /* iTMSTransporterTests.swift */,
+				E9CC478822CAB5C000E8C829 /* TransporterTests.swift */,
 				E9CC478A22CAB5C000E8C829 /* Info.plist */,
 			);
 			path = iTMSTransporterTests;
@@ -267,7 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9CC479822CAB71000E8C829 /* iTMSTransporter.swift in Sources */,
+				E9CC47B822CABAF000E8C829 /* Credentials.swift in Sources */,
+				E9491A4822CE9527007FFD90 /* Process+Extension.swift in Sources */,
+				E9B3AF6722CC1113005FB20B /* PathConvertible.swift in Sources */,
+				E925D79222E4CB5C00DE0063 /* Reachability.swift in Sources */,
+				E9CC479822CAB71000E8C829 /* Transporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9CC478922CAB5C000E8C829 /* iTMSTransporterTests.swift in Sources */,
+				E9CC478922CAB5C000E8C829 /* TransporterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

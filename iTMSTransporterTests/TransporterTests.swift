@@ -1,6 +1,4 @@
 //
-// iTMSTransporter.swift
-//
 // Copyright (c) 2019 Puzyrev Pavel
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,4 +19,41 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import Foundation
+import XCTest
+@testable import iTMSTransporter
+
+class TransporterTests: XCTestCase {
+    
+    private enum Constants {
+        static let username: String = ""
+        static let password: String = ""
+        static let sku: String = ""
+    }
+
+    override func setUp() {
+        Transporter.setup(username: Constants.username, password: Constants.password)
+    }
+
+    func testLookup() {
+        let lookupWaiting = expectation(description: "Lookup")
+        
+        let downloadPath = FileManager.default.homeDirectoryForCurrentUser
+        
+        Transporter.lookup(sku: Constants.sku, downloadPath: downloadPath) { result in
+            switch result {
+            case .success(let model):
+                if let log = model.outputLog {
+                    print("Output:\n" + log)
+                }
+                if let log = model.errorLog {
+                    print("Error:\n" + log)
+                }
+            case .failure(let error):
+                print(error)
+            }
+            lookupWaiting.fulfill()
+        }
+        
+        wait(for: [lookupWaiting], timeout: 60)
+    }
+}

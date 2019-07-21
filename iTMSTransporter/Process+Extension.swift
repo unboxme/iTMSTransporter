@@ -19,14 +19,23 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Cocoa/Cocoa.h>
+import Foundation
 
-//! Project version number for iTMSTransporter.
-FOUNDATION_EXPORT double iTMSTransporterVersionNumber;
-
-//! Project version string for iTMSTransporter.
-FOUNDATION_EXPORT const unsigned char iTMSTransporterVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <iTMSTransporter/PublicHeader.h>
-
-
+extension Process {
+    
+    var pipedOutputLog: String? {
+        return logFrom(pipedStandard: standardOutput)
+    }
+    
+    var pipedErrorLog: String? {
+        return logFrom(pipedStandard: standardError)
+    }
+    
+    private func logFrom(pipedStandard: Any?) -> String? {
+        if let outputPipe = pipedStandard as? Pipe,
+            let outputString = String(data: outputPipe.fileHandleForReading.readDataToEndOfFile(), encoding: .utf8) {
+            return outputString
+        }
+        return nil
+    }
+}

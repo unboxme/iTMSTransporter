@@ -19,14 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Cocoa/Cocoa.h>
-
-//! Project version number for iTMSTransporter.
-FOUNDATION_EXPORT double iTMSTransporterVersionNumber;
-
-//! Project version string for iTMSTransporter.
-FOUNDATION_EXPORT const unsigned char iTMSTransporterVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <iTMSTransporter/PublicHeader.h>
-
-
+struct Credentials {
+    static var username: String?
+    static var password: String?
+}
