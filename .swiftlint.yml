@@ -2,7 +2,7 @@ disabled_rules:
   - trailing_whitespace
   - notification_center_detachment
 included: # paths to include during linting. `--path` is ignored if present.
-  - iTMSTransporter
+  - Transporter
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
   - Pods

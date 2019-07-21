@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5694F269EF30D25B5E270BBE /* Pods_iTMSTransporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ABD81C22952B21BA5C6660 /* Pods_iTMSTransporter.framework */; };
+		CDE35CC2C81045B5BC021C2B /* Pods_Transporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28CBD768C1F4A5C79779C26 /* Pods_Transporter.framework */; };
 		E925D79222E4CB5C00DE0063 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925D79122E4CB5C00DE0063 /* Reachability.swift */; };
 		E9491A4822CE9527007FFD90 /* Process+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9491A4722CE9527007FFD90 /* Process+Extension.swift */; };
 		E9B3AF6722CC1113005FB20B /* PathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B3AF6622CC1113005FB20B /* PathConvertible.swift */; };
-		E9CC478422CAB5C000E8C829 /* iTMSTransporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */; };
+		E9CC478422CAB5C000E8C829 /* Transporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CC477A22CAB5C000E8C829 /* Transporter.framework */; };
 		E9CC478922CAB5C000E8C829 /* TransporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC478822CAB5C000E8C829 /* TransporterTests.swift */; };
-		E9CC478B22CAB5C000E8C829 /* iTMSTransporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CC478B22CAB5C000E8C829 /* Transporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CC477D22CAB5C000E8C829 /* Transporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9CC479822CAB71000E8C829 /* Transporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC479722CAB71000E8C829 /* Transporter.swift */; };
 		E9CC47B822CABAF000E8C829 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC47B722CABAF000E8C829 /* Credentials.swift */; };
 /* End PBXBuildFile section */
@@ -30,15 +30,17 @@
 
 /* Begin PBXFileReference section */
 		0F05D75370871EF582975438 /* Pods-iTMSTransporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTMSTransporter.release.xcconfig"; path = "Target Support Files/Pods-iTMSTransporter/Pods-iTMSTransporter.release.xcconfig"; sourceTree = "<group>"; };
+		3342FA8AC7D590BE5295F3A8 /* Pods-Transporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transporter.debug.xcconfig"; path = "Target Support Files/Pods-Transporter/Pods-Transporter.debug.xcconfig"; sourceTree = "<group>"; };
 		526D94991280EA51C15951A7 /* Pods-iTMSTransporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTMSTransporter.debug.xcconfig"; path = "Target Support Files/Pods-iTMSTransporter/Pods-iTMSTransporter.debug.xcconfig"; sourceTree = "<group>"; };
-		B9ABD81C22952B21BA5C6660 /* Pods_iTMSTransporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTMSTransporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28CBD768C1F4A5C79779C26 /* Pods_Transporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09BCF9D5B45E543FD1ADCFC /* Pods-Transporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transporter.release.xcconfig"; path = "Target Support Files/Pods-Transporter/Pods-Transporter.release.xcconfig"; sourceTree = "<group>"; };
 		E925D79122E4CB5C00DE0063 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		E9491A4722CE9527007FFD90 /* Process+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Extension.swift"; sourceTree = "<group>"; };
 		E9B3AF6622CC1113005FB20B /* PathConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathConvertible.swift; sourceTree = "<group>"; };
-		E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTMSTransporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTMSTransporter.h; sourceTree = "<group>"; };
+		E9CC477A22CAB5C000E8C829 /* Transporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CC477D22CAB5C000E8C829 /* Transporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transporter.h; sourceTree = "<group>"; };
 		E9CC477E22CAB5C000E8C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9CC478322CAB5C000E8C829 /* iTMSTransporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTMSTransporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CC478322CAB5C000E8C829 /* TransporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC478822CAB5C000E8C829 /* TransporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporterTests.swift; sourceTree = "<group>"; };
 		E9CC478A22CAB5C000E8C829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9CC479722CAB71000E8C829 /* Transporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transporter.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5694F269EF30D25B5E270BBE /* Pods_iTMSTransporter.framework in Frameworks */,
+				CDE35CC2C81045B5BC021C2B /* Pods_Transporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9CC478422CAB5C000E8C829 /* iTMSTransporter.framework in Frameworks */,
+				E9CC478422CAB5C000E8C829 /* Transporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +70,7 @@
 		17AC2C2FDF514AA981E9230B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9ABD81C22952B21BA5C6660 /* Pods_iTMSTransporter.framework */,
+				A28CBD768C1F4A5C79779C26 /* Pods_Transporter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +80,8 @@
 			children = (
 				526D94991280EA51C15951A7 /* Pods-iTMSTransporter.debug.xcconfig */,
 				0F05D75370871EF582975438 /* Pods-iTMSTransporter.release.xcconfig */,
+				3342FA8AC7D590BE5295F3A8 /* Pods-Transporter.debug.xcconfig */,
+				B09BCF9D5B45E543FD1ADCFC /* Pods-Transporter.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -85,8 +89,8 @@
 		E9CC477022CAB5C000E8C829 = {
 			isa = PBXGroup;
 			children = (
-				E9CC477C22CAB5C000E8C829 /* iTMSTransporter */,
-				E9CC478722CAB5C000E8C829 /* iTMSTransporterTests */,
+				E9CC477C22CAB5C000E8C829 /* Transporter */,
+				E9CC478722CAB5C000E8C829 /* TransporterTests */,
 				E9CC477B22CAB5C000E8C829 /* Products */,
 				8F8F4AEDAF1C99CE7DE6F4C3 /* Pods */,
 				17AC2C2FDF514AA981E9230B /* Frameworks */,
@@ -96,16 +100,16 @@
 		E9CC477B22CAB5C000E8C829 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */,
-				E9CC478322CAB5C000E8C829 /* iTMSTransporterTests.xctest */,
+				E9CC477A22CAB5C000E8C829 /* Transporter.framework */,
+				E9CC478322CAB5C000E8C829 /* TransporterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9CC477C22CAB5C000E8C829 /* iTMSTransporter */ = {
+		E9CC477C22CAB5C000E8C829 /* Transporter */ = {
 			isa = PBXGroup;
 			children = (
-				E9CC477D22CAB5C000E8C829 /* iTMSTransporter.h */,
+				E9CC477D22CAB5C000E8C829 /* Transporter.h */,
 				E9CC479722CAB71000E8C829 /* Transporter.swift */,
 				E9CC47B722CABAF000E8C829 /* Credentials.swift */,
 				E9B3AF6622CC1113005FB20B /* PathConvertible.swift */,
@@ -113,16 +117,16 @@
 				E9491A4722CE9527007FFD90 /* Process+Extension.swift */,
 				E9CC477E22CAB5C000E8C829 /* Info.plist */,
 			);
-			path = iTMSTransporter;
+			path = Transporter;
 			sourceTree = "<group>";
 		};
-		E9CC478722CAB5C000E8C829 /* iTMSTransporterTests */ = {
+		E9CC478722CAB5C000E8C829 /* TransporterTests */ = {
 			isa = PBXGroup;
 			children = (
 				E9CC478822CAB5C000E8C829 /* TransporterTests.swift */,
 				E9CC478A22CAB5C000E8C829 /* Info.plist */,
 			);
-			path = iTMSTransporterTests;
+			path = TransporterTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,16 +136,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9CC478B22CAB5C000E8C829 /* iTMSTransporter.h in Headers */,
+				E9CC478B22CAB5C000E8C829 /* Transporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E9CC477922CAB5C000E8C829 /* iTMSTransporter */ = {
+		E9CC477922CAB5C000E8C829 /* Transporter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9CC478E22CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "iTMSTransporter" */;
+			buildConfigurationList = E9CC478E22CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "Transporter" */;
 			buildPhases = (
 				2379EF803E9BAF46FB161EE3 /* [CP] Check Pods Manifest.lock */,
 				E9CC477522CAB5C000E8C829 /* Headers */,
@@ -154,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = iTMSTransporter;
+			name = Transporter;
 			productName = iTMSTransporter;
-			productReference = E9CC477A22CAB5C000E8C829 /* iTMSTransporter.framework */;
+			productReference = E9CC477A22CAB5C000E8C829 /* Transporter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9CC478222CAB5C000E8C829 /* iTMSTransporterTests */ = {
+		E9CC478222CAB5C000E8C829 /* TransporterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9CC479122CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "iTMSTransporterTests" */;
+			buildConfigurationList = E9CC479122CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "TransporterTests" */;
 			buildPhases = (
 				E9CC477F22CAB5C000E8C829 /* Sources */,
 				E9CC478022CAB5C000E8C829 /* Frameworks */,
@@ -172,9 +176,9 @@
 			dependencies = (
 				E9CC478622CAB5C000E8C829 /* PBXTargetDependency */,
 			);
-			name = iTMSTransporterTests;
+			name = TransporterTests;
 			productName = iTMSTransporterTests;
-			productReference = E9CC478322CAB5C000E8C829 /* iTMSTransporterTests.xctest */;
+			productReference = E9CC478322CAB5C000E8C829 /* TransporterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9CC477422CAB5C000E8C829 /* Build configuration list for PBXProject "iTMSTransporter" */;
+			buildConfigurationList = E9CC477422CAB5C000E8C829 /* Build configuration list for PBXProject "Transporter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,8 +212,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9CC477922CAB5C000E8C829 /* iTMSTransporter */,
-				E9CC478222CAB5C000E8C829 /* iTMSTransporterTests */,
+				E9CC477922CAB5C000E8C829 /* Transporter */,
+				E9CC478222CAB5C000E8C829 /* TransporterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +251,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iTMSTransporter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Transporter-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -300,7 +304,7 @@
 /* Begin PBXTargetDependency section */
 		E9CC478622CAB5C000E8C829 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9CC477922CAB5C000E8C829 /* iTMSTransporter */;
+			target = E9CC477922CAB5C000E8C829 /* Transporter */;
 			targetProxy = E9CC478522CAB5C000E8C829 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,7 +433,7 @@
 		};
 		E9CC478F22CAB5C000E8C829 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 526D94991280EA51C15951A7 /* Pods-iTMSTransporter.debug.xcconfig */;
+			baseConfigurationReference = 3342FA8AC7D590BE5295F3A8 /* Pods-Transporter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -441,14 +445,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = iTMSTransporter/Info.plist;
+				INFOPLIST_FILE = Transporter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.transporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -458,7 +462,7 @@
 		};
 		E9CC479022CAB5C000E8C829 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F05D75370871EF582975438 /* Pods-iTMSTransporter.release.xcconfig */;
+			baseConfigurationReference = B09BCF9D5B45E543FD1ADCFC /* Pods-Transporter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -470,14 +474,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = iTMSTransporter/Info.plist;
+				INFOPLIST_FILE = Transporter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.transporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,13 +495,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 22BDH96YAS;
-				INFOPLIST_FILE = iTMSTransporterTests/Info.plist;
+				INFOPLIST_FILE = TransporterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter.iTMSTransporterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter.TransporterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -510,13 +514,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 22BDH96YAS;
-				INFOPLIST_FILE = iTMSTransporterTests/Info.plist;
+				INFOPLIST_FILE = TransporterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter.iTMSTransporterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cannedapp.framework.itmstransporter.TransporterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -525,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9CC477422CAB5C000E8C829 /* Build configuration list for PBXProject "iTMSTransporter" */ = {
+		E9CC477422CAB5C000E8C829 /* Build configuration list for PBXProject "Transporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9CC478C22CAB5C000E8C829 /* Debug */,
@@ -534,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9CC478E22CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "iTMSTransporter" */ = {
+		E9CC478E22CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "Transporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9CC478F22CAB5C000E8C829 /* Debug */,
@@ -543,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9CC479122CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "iTMSTransporterTests" */ = {
+		E9CC479122CAB5C000E8C829 /* Build configuration list for PBXNativeTarget "TransporterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9CC479222CAB5C000E8C829 /* Debug */,

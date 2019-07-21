@@ -21,12 +21,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-//! Project version number for iTMSTransporter.
-FOUNDATION_EXPORT double iTMSTransporterVersionNumber;
+//! Project version number for Transporter.
+FOUNDATION_EXPORT double TransporterVersionNumber;
 
-//! Project version string for iTMSTransporter.
-FOUNDATION_EXPORT const unsigned char iTMSTransporterVersionString[];
+//! Project version string for Transporter.
+FOUNDATION_EXPORT const unsigned char TransporterVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <iTMSTransporter/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <Transporter/PublicHeader.h>
 
 

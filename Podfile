@@ -6,7 +6,7 @@ use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'iTMSTransporter' do
+target 'Transporter' do
   pod 'SwiftLint'
 end
 

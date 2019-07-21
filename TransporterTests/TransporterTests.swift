@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 import XCTest
-@testable import iTMSTransporter
+@testable import Transporter
 
 class TransporterTests: XCTestCase {
     
@@ -31,7 +31,7 @@ class TransporterTests: XCTestCase {
     }
 
     override func setUp() {
-        Transporter.setup(username: Constants.username, password: Constants.password)
+//        Transporter.setup(username: Constants.username, password: Constants.password)
     }
 
     func testLookup() {
