@@ -31,7 +31,7 @@ class TransporterTests: XCTestCase {
     }
 
     override func setUp() {
-//        Transporter.setup(username: Constants.username, password: Constants.password)
+        Transporter.setup(username: Constants.username, password: Constants.password)
     }
 
     func testLookup() {
